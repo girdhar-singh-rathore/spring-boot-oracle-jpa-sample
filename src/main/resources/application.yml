@@ -1,0 +1,14 @@
+server:
+  port: 8080
+management:
+  security:
+    enabled: false
+spring:
+  application:
+    name: spring-boot-h2-db-web-app
+  datasource:
+    url: jdbc:oracle:thin://10.208.0.117:1521/orcl.corp.amdocs.com
+    username: SYSTEM
+    password: Thereyougo90
+  jpa:
+    show-sql: true
