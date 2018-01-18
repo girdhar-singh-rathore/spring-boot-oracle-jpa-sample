@@ -7,8 +7,8 @@ spring:
   application:
     name: spring-boot-h2-db-web-app
   datasource:
-    url: jdbc:oracle:thin://10.208.0.117:1521/orcl.corp.amdocs.com
-    username: SYSTEM
-    password: Thereyougo90
+    url: jdbc:oracle:thin://database_host_name:1521/db_sid
+    username: ROOT
+    password: ROOT
   jpa:
     show-sql: true
